@@ -1,9 +1,8 @@
-<div style="display: flex; justify-content: space-between;">
-    <a href="https://developerpy.com.br/">
-        <img src="https://developerpy.com.br/static/global/img/logo.png" alt="MiPyDev" width="250">
-    </a>
-    <h1>Blog tutorials</h1>
-</div>
+<a href="https://developerpy.com.br/">
+    <img src="https://developerpy.com.br/static/global/img/logo.png" alt="MiPyDev" width="250">
+</a>
+
+# Blog tutorials
 
 ![Static Badge](https://img.shields.io/badge/3.11-gray?style=plastic&logo=python&logoColor=green&label=Python&link=https%3A%2F%2Fwww.python.org%2Fdownloads)
 ![Static Badge](https://img.shields.io/badge/4.3.4-gray?style=plastic&logo=Django&logoColor=green&label=Django&link=https%3A%2F%2Fwww.djangoproject.com)

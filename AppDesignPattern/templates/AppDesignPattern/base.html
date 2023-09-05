@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    {% include 'AppDesignPattern/partials/_head.html' %}
+</head>
+<body>
+    {% include 'AppDesignPattern/partials/_header.html' %}
+    
+    <main class='container'>
+        {% block content %}
+        {% endblock content %}
+
+        {% include 'AppDesignPattern/partials/_pagination.html' %}
+    </main>
+    
+    {% include 'AppDesignPattern/partials/_footer.html' %}
+    
+    <script src="{% static 'AppDesignPattern/bootstrap5/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
